@@ -16,6 +16,7 @@ const userLoginValidator = () => {
         .notEmpty()
         .withMessage("Password is required")
     ]
+
 }
 
 export { userRegisterValidator , userLoginValidator};
@@ -38,6 +39,7 @@ Now , lets try to login with `postman` :
 ![alt text](image-32.png)
 
 **So now we are done with login and testing as well!!**
+
 
 ---
 ---
